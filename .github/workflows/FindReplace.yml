@@ -50,8 +50,8 @@ jobs:
       id: fn
       uses: shitiomatic/str-replace@master
       with:
-        find: "[Aa]ggregate"
-        replace: "team"
+          find: "[Tt]eam"
+        replace: "Team (AGG) Care"
         
         # search returns only committed file by user 
         #include: ${{ steps.getfile.outputs.files }} 
